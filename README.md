@@ -93,6 +93,42 @@ json_path = Path("Polish_VoiceDialogue_Mod.json")
 - `output_root` – miejsce zapisu polskich plików dźwiękowych  
 - `json_path` – plik wygenerowany w kroku 2
 
+### 5. Kompresja i przyspieszenie audio
+
+Po wygenerowaniu plików `.mp3`, użyj skryptu `3_compress_audio.py`, aby **skomprymować i przyspieszyć dźwięk o 10%** (lektor mówi szybciej, zachowując naturalność).
+
+Skrypt używa **FFmpeg** oraz **wielowątkowości** do szybkiego przetwarzania wszystkich plików w folderze `Sound`.
+
+#### ⚙️ Konfiguracja (`3_compress_audio.py`)
+
+```python
+input_root = Path("./Sound")               # Folder z oryginalnymi plikami .mp3
+output_root = Path("./Sound_Compressed")   # Folder wynikowy z plikami po kompresji
+max_workers = 4                            # Liczba wątków (zależna od CPU)
+
+# Tryb kompresji: VBR (zmienna jakość) lub CBR (stały bitrate)
+use_vbr = True
+vbr_quality = "7"                          # 2 = najwyższa jakość, 9 = najniższa
+
+# Alternatywa dla VBR (jeśli use_vbr = False)
+target_bitrate = "32k"
+target_sample_rate = "22050"
+
+# Przyspieszenie lektora: 1.10 = 10% szybciej
+audio_speed_factor = 1.10
+```
+
+#### ▶️ Uruchomienie
+
+```bash
+python3 3_compress_audio.py
+```
+
+Po wykonaniu skryptu, nowe pliki `.mp3` znajdziesz w folderze `./Sound_Compressed`, z zachowaną strukturą folderów zgodną z Voices of Vvardenfell.
+
+> 🔄 Zaleca się **podmienić** folder `Sound/Vo/AIV` z Voices of Vvardenfell na wersję `Sound_Compressed/Vo/AIV` uzyskaną po tym kroku.
+
+
 ---
 
 ## 🎯 Integracja z grą
