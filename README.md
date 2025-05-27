@@ -146,7 +146,7 @@ Ułatwienie polskim graczom przeżycia Morrowinda z pełnym wsparciem lektora AI
 
 ## 🐧 System operacyjny
 
-Projekt tworzony i testowany wyłącznie na systemie **Linux** (np. Pop!\_OS, Steam Deck). Działa w środowisku zgodnym z Python 3 i `pip`.
+Projekt tworzony i testowany wyłącznie na systemie **Linux** (Pop!\_OS). Działa w środowisku zgodnym z Python 3 i `pip`.
 
 ---
 
