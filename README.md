@@ -11,7 +11,7 @@ To repozytorium zawiera skrypty i narzędzia służące do wygenerowania polskie
 
 Projekt wykorzystuje model tekst-do-mowy (TTS) do automatycznego generowania ścieżek dźwiękowych z polskich dialogów i integruje się z istniejącą modyfikacją **Voices of Vvardenfell**.
 
-> ❗ Obsługiwane są wyłącznie systemy **Linux**.  
+> ❗ Udostępnione instrukcje i skrypty stworzone były z myślą o systemach **Linux**.  
 > ❗ Wersja gry: **TES3: Morrowind – Złota Edycja (polska)**  
 > ❗ Silnik: **OpenMW 0.49 lub nowszy**
 
