@@ -114,19 +114,6 @@ Projekt tworzony i testowany wyłącznie na systemie **Linux** (np. Pop!\_OS, St
 
 ---
 
-## 📂 Struktura repozytorium
-
-```
-.
-├── 1_generate_pl_dialog_json.py       # Skrypt łączący dialogi do JSON
-├── 2_generate_speech.py              # Skrypt generujący pliki audio z JSON
-├── Polish_VoiceDialogue_Mod.json     # Wygenerowany plik z polskimi dialogami
-├── tes3conv_pl                       # Narzędzie do konwersji TES3 ↔ JSON
-└── README.md
-```
-
----
-
 ## 🤝 Wkład i pomoc
 
 Jeśli chcesz pomóc w rozwoju, tłumaczeniu lub testowaniu — zapraszam do kontaktu i zgłaszania problemów poprzez Issues lub Pull Requests.
