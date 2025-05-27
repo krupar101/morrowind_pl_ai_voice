@@ -7,7 +7,7 @@ _Modyfikacja dla silnika OpenMW_
 
 ## 📜 Opis
 
-To repozytorium zawiera skrypty i narzędzia służące do wygenerowania polskiego lektora (a w przyszłości również pełnego dubbingu AI) dla gry **TES III: Morrowind – Złota Edycja**, uruchamianej na silniku **OpenMW 0.49+**.
+To repozytorium zawiera skrypty i narzędzia służące do wygenerowania polskiego lektora (a w przyszłości może również pełnego dubbingu AI) dla gry **TES III: Morrowind – Złota Edycja**, uruchamianej na silniku **OpenMW 0.49+**.
 
 Projekt wykorzystuje model tekst-do-mowy (TTS) do automatycznego generowania ścieżek dźwiękowych z polskich dialogów i integruje się z istniejącą modyfikacją **Voices of Vvardenfell**.
 
