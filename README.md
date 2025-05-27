@@ -1,7 +1,7 @@
 # 🇵🇱 morrowind_pl_ai_voice
 
 **Polski Lektor AI do gry The Elder Scrolls III: Morrowind – Złota Edycja**  
-_Modyfikacja dla silnika OpenMW (Linux only)_
+_Modyfikacja dla silnika OpenMW_
 
 ---
 
