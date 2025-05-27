@@ -4,8 +4,8 @@ from pathlib import Path
 from TTS.api import TTS
 
 # === CONFIG ===
-original_vov_root = Path("/Sound/Vo/AIV")
-output_root = Path("/output/Sound/Vo/AIV")
+original_vov_root = Path("./Sound/Vo/AIV")
+output_root = Path("./output/Sound/Vo/AIV")
 json_path = Path("Polish_VoiceDialogue_Mod.json")
 tts_model_name = "tts_models/pl/mai_female/vits"
 
